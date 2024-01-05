@@ -126,14 +126,9 @@ main{
     margin-bottom: 40px;
     display: block;
 }
-
-.img1-main{
-  width: 1000px;
-}
-
-.img3-main{
-  width: 1000px;
-}
+    main img{
+      width: 100%;
+    }
 
 .retornar{
   background-color: var(--cor6);
