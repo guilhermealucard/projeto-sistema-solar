@@ -31,32 +31,41 @@
   font-style: normal;
 }
 
+  
+body{
+  font-family: var(--fonte0);
+  background-image: url(/images/mainwallpaper.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
 header {
-  background-image: linear-gradient(to right, var(--cor3), var(--cor1) );
+  background-image: url(/images/OIG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
   padding: 30px;
   text-align: center;
 }
 
-body{
-  font-family: var(--fonte0);
-  background-color: var(--cor6);
-}
-  
   header h1{
     font-family: var(--fonte1);
-    font-size: 4em;
-    color: var(--cor5);
+    font-size: 3.8em;
+    color: var(--cor6);
+    font-weight: bolder;
     margin-bottom: 0px;
   }
 
   header p{
     font-family: var(--fonte0);
-    font-size: 1.2em;
-    font-weight: bold;
-    color: var(--cor4);
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: var(--cor1);
     margin-top: 20px;
   }
 
+    
 nav{
   background-image: linear-gradient(to right, var(--cor1), var(--cor3));
   text-align: center;
