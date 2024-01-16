@@ -32,10 +32,10 @@
 }
 
 header {
-  background-image: url(/images/banner-planetas.jpg);
+  background-image: url(/images/banner-satelites.jpg);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center center;
   padding: 30px;
   text-align: center;
 }
@@ -43,7 +43,7 @@ header {
 header h1{
   font-family: var(--fonte1);
   font-size: 3.8em;
-  color: var(--cor6);
+  color: var(--cor0);
   font-weight: bolder;
   margin-bottom: 0px;
   text-align: left;
@@ -59,7 +59,7 @@ header p{
 
 nav{
   font-family: var(--fonte1);
-  background-image: linear-gradient(to right, var(--cor5), var(--cor4));
+  background-image: linear-gradient(to right, lightgray, var(--cor6));
   text-align: center;
   padding: 5px;
   font-size: 1.1em;
@@ -68,14 +68,14 @@ nav{
     margin-right: 20px;
     margin-left: 20px;
     padding: 5px;
-    color: var(--cor6);
+    color: var(--cor0);
     text-decoration: none;
     font-weight: bold;
     transition-duration: 1s;
   }
   
   nav a:hover{
-    background-color: var(--cor6);
+    background-color: var(--cor0);
     border-radius: 5px;
-    color: var(--cor0);
+    color: var(--cor6);
   }
